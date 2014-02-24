@@ -26,6 +26,6 @@
             "type":"git",
             "url":"https://github.com/richarddavey/countries"
         }
-    ]
+    ],
     "minimum-stability": "dev"
 }
