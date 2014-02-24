@@ -3,11 +3,11 @@
 interface DriverInterface {
 
 	/**
-	 * Convert number to international dialing using ISO3166_1_alpha2 code
+	 * Convert input number of country to international dialing using ISO3166_1_alpha2 code
 	 *
-	 * @param $country
+	 * @param $country of input number
 	 * @param $phone
-	 * @param $current
+	 * @param $current county for output
 	 * @return object
 	 */
     public function dialcode($country, $phone, $current = 'GB');
@@ -38,11 +38,4 @@ interface DriverInterface {
 	 * @return object
 	 */
 	public function list_codes();
-	
-	/**
-	 * Load countries
-	 *
-	 * @return object
-	 */
-	private function load();
 }
