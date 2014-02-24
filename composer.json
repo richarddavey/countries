@@ -21,5 +21,11 @@
             "Richarddavey\\Countries": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "repositories":[
+        {
+            "type":"git",
+            "url":"https://github.com/richarddavey/countries"
+        }
+    ]
+    "minimum-stability": "dev"
 }
